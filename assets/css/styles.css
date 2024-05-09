@@ -1,0 +1,113 @@
+.nas {
+  background-image: url("../../assets/img/nas.png");
+  background-size: cover;
+}
+
+.invest {
+  background-image: url("../../assets/img/invest.png");
+  background-size: cover;
+  background-size: 520px 100px;
+}
+
+.careeng {
+  background-image: url("../../assets/img/careng.png");
+  background-size: cover;
+}
+
+.welcomeheader {
+  text-align: center;
+  color: rgb(255,255,255);
+  text-shadow: 0px 0px 5px rgb(0,0,0);
+  font-family: Poppins, sans-serif;
+}
+
+.gifsep {
+  background-image: url("../../assets/img/unified-hero.gif");
+}
+
+@keyframes hero-btm {
+  0% {
+    background-position: 18% 0%;
+  }
+  50% {
+    background-position: 83% 100%;
+  }
+  100% {
+    background-position: 18% 0%;
+  }
+}
+
+.abt-us {
+}
+
+@media (min-width: 576px) {
+  .abt-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 72px;
+    text-align: center;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+  }
+}
+
+.title-div {
+  border-bottom-style: solid;
+}
+
+@media (min-width: 576px) {
+  .title-div {
+    background: url("../../assets/img/aboutus.webp") center / cover no-repeat;
+    height: 500px;
+    text-align: center;
+    box-shadow: 8px 11px 7px rgb(77,99,29);
+  }
+}
+
+@media (min-width: 576px) {
+  .title-div {
+    background: url("../../assets/img/aboutus.webp") center / cover no-repeat;
+    height: 500px;
+    text-align: center;
+    box-shadow: 8px 11px 7px rgb(77,99,29);
+  }
+}
+
+@media (min-width: 576px) {
+  .title-div {
+    background: url("../../assets/img/aboutus.webp") center / cover no-repeat;
+    height: 500px;
+    text-align: center;
+    box-shadow: 8px 11px 7px rgb(77,99,29);
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .title-div {
+    background: url("../../assets/img/aboutus.webp") center / cover no-repeat;
+    height: 309px;
+    background-size: 420px 250px;
+    background-position: center 60px;
+    text-align: center;
+    box-shadow: 8px 11px 7px rgb(77,99,29);
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .abt-title {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 42px;
+    text-align: center;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding-top: 1px;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+}
+

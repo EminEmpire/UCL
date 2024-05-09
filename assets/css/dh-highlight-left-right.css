@@ -1,0 +1,99 @@
+.dh-heading-lg {
+  font-weight: bold;
+  font-size: 120px;
+  color: #0257fe;
+}
+
+.dh-heading-sm {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.dh-highlight-left {
+  text-align: right;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+@media (max-width:991px) {
+  .dh-highlight-left {
+    border-right-style: none;
+  }
+}
+
+@media (max-width:767px) {
+  .dh-heading-lg {
+    font-weight: bold;
+    font-size: 70px;
+    color: #0257fe;
+  }
+}
+
+@media (max-width:767px) {
+  .dh-heading-sm {
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
+#supliv:hover {
+  background-color: #e67aab;
+  color: #000000;
+}
+
+#supliv {
+  background: #563343;
+  font-family: Poppins, sans-serif;
+  color: rgb(255,255,255);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#rescare:hover {
+  background: #7adcb0;
+  color: rgb(0,0,0);
+}
+
+#rescare {
+  background: #548e74;
+  font-family: Poppins, sans-serif;
+  color: rgb(255,255,255);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#hero-container {
+  margin-bottom: 15px;
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#abtushdr {
+}
+
+.quote-main {
+}
+
+.quote-main {
+  font-family: 'Cinzel Decorative';
+}
+
